@@ -1,0 +1,12 @@
+EUR_RUB = 70.53
+USD_RUB = 56.80
+EUR_USD = 1.24
+
+EXCHANGE_MAP = {
+    'EUR_RUB': EUR_RUB,
+    'RUB_EUR': 1 / EUR_RUB,
+    'USD_RUB': USD_RUB,
+    'RUB_USD': 1 / USD_RUB,
+    'EUR_USD': EUR_USD,
+    'USD_EUR': 1 / EUR_USD,
+}
